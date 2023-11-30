@@ -1,3 +1,4 @@
+import java.util.EventListener;
 import java.util.Scanner;
 
 public class EjercicioUno {
@@ -49,18 +50,32 @@ public class EjercicioUno {
         System.out.println(primeraCadena.length());
 
         System.out.println("m. Decir si la cadena es un palíndromo (se lee igual hacia adelante como hacia atrás)");
-        System.out.println(primeraCadena.startsWith(primeraCadena)&&primeraCadena.endsWith(primeraCadena));
+        String nuevaCadena = teclado.nextLine();
+        int longitud = nuevaCadena.length();
+        int mitad = longitud/2;
+        int contador=0;
+        int i;
+        for (i = 0; i < mitad ; i++) {
+            if(nuevaCadena.charAt(i) != nuevaCadena.charAt((longitud - i -1))){
+                contador++;
+                break;
+            }
+        }
+        if(contador == 0){
+            System.out.println("Son iguales.");
+        }else System.out.println("Son distintos.");
 
-//        System.out.println("n. Crear una cadena que sea igual a la introducida, pero con la primera y última posiciones intercambiadas. Ejemplo: si introducen: “abcde”, obtendría “ebcda”.");
-//        System.out.println(primeraCadena.replace(primeraCadena.));
+        System.out.println("n. Crear una cadena que sea igual a la introducida, pero con la primera y última posiciones intercambiadas. Ejemplo: si introducen: “abcde”, obtendría “ebcda”.");
+        System.out.println(primeraCadena.charAt(primeraCadena.length()-1)+primeraCadena.substring(1,primeraCadena.length()-1)+primeraCadena.charAt(0));
+        String texto = "Rafik";
+        char primeraPalabra = texto.charAt(0);
+        char ultimaPalabra = texto.charAt(texto.length()-1);
+        String textoTransformado = String.valueOf(primeraCadena);
+        char firstLetter = textoTransformado.charAt(0);
+        char finalLetter = textoTransformado.charAt(textoTransformado.length()-1);
 
+        System.out.println(finalLetter+textoTransformado.substring(1,textoTransformado.length()-1)+firstLetter);
 
-
-
-
-
-
-
-
+        System.out.println(ultimaPalabra+texto.substring(1,texto.length()-1)+ultimaPalabra);
     }
 }
