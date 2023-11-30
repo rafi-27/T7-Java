@@ -10,6 +10,6 @@ public class EjercicioTres {
         System.out.println("Introduce la segunda cadena: ");
         String segundaCadena = teclado.nextLine();
 
-        System.out.println(primeraCadena.equalsIgnoreCase(segundaCadena));
+        System.out.println(primeraCadena.equalsIgnoreCase(segundaCadena)?"Son iguales":"No son iguales");
     }
 }
