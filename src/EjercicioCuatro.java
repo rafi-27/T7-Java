@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class EjercicioCuatro {
@@ -18,9 +19,16 @@ public class EjercicioCuatro {
         System.out.println("Tercera cadena segundo Apellido: ");
         String terceraCadena = teclado.nextLine();
 
-        String codigoUsuario = new String();
+        String códigoUsuario;
 
-        codigoUsuario = primeraCadena.substring(0,3)+segundaCadena.substring(0,3)+terceraCadena.substring(0,3);
-        System.out.println("Tu codigo de usuario es: "+codigoUsuario.toUpperCase());
+        códigoUsuario = primeraCadena.substring(0,3)+segundaCadena.substring(0,3)+terceraCadena.substring(0,3);
+        System.out.println("Tu código de usuario es: "+códigoUsuario.toUpperCase());
+
+        //Probamos mostrando una ventana emergente.
+        String first = JOptionPane.showInputDialog("Introduce tu nombre");
+        String second = JOptionPane.showInputDialog("Introduce tu primer apellido");
+        String third = JOptionPane.showInputDialog("Introduce tu segundo apellido");
+        String juntamos = first.substring(0,3)+second.substring(0,3)+third.substring(0,3);
+        JOptionPane.showMessageDialog(null,"Tu codigo de user es:"+juntamos.toUpperCase());
     }
 }
