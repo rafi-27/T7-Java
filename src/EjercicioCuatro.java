@@ -25,10 +25,10 @@ public class EjercicioCuatro {
         System.out.println("Tu código de usuario es: "+códigoUsuario.toUpperCase());
 
         //Probamos mostrando una ventana emergente.
-        String first = JOptionPane.showInputDialog("Introduce tu nombre");
-        String second = JOptionPane.showInputDialog("Introduce tu primer apellido");
-        String third = JOptionPane.showInputDialog("Introduce tu segundo apellido");
-        String juntamos = first.substring(0,3)+second.substring(0,3)+third.substring(0,3);
-        JOptionPane.showMessageDialog(null,"Tu codigo de user es:"+juntamos.toUpperCase());
+//        String first = JOptionPane.showInputDialog("Introduce tu nombre");
+//        String second = JOptionPane.showInputDialog("Introduce tu primer apellido");
+//        String third = JOptionPane.showInputDialog("Introduce tu segundo apellido");
+//        String juntamos = first.substring(0,3)+second.substring(0,3)+third.substring(0,3);
+//        JOptionPane.showMessageDialog(null,"Tu codigo de user es:"+juntamos.toUpperCase());
     }
 }
