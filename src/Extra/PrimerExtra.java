@@ -42,5 +42,16 @@ public class PrimerExtra{
             jd.add(jLabel);
             jd.add(jButton);
             jd.setVisible(true);
+
+
+//            String conversionCOrg = cadena.toString();
+//            String converReves = cad.toString();
+//
+//            String primerMinus = conversionCOrg.toLowerCase();
+//            String segundMinus = converReves.toLowerCase();
+//
+//            String quitoEspacio = primerMinus.replace(" ","");
+//            String quito = segundMinus.replace(" ","");
+
         }
     }
