@@ -10,7 +10,7 @@ public class EjercicioOcho {
         System.out.print("Introduce una cadena: ");
         String cadena = teclado.nextLine();
 
-        System.out.println("Que caracter quieres que te diga las veces que se repitio.");
+        System.out.println("Que caracter quieres que te diga las veces que se repite.");
         char letra = teclado.nextLine().charAt(0);
 
         int cont=0;
