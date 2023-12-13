@@ -2,7 +2,7 @@ public class EjercicioQuince {
     public static void main(String[] args) {
         java.util.Scanner teclado = new java.util.Scanner(System.in);
         /**
-         * 15.Realizar un programa que solicite la entrada de una cadena de 6 posiciones, que
+         * Realizar un programa que solicite la entrada de una cadena de 6 posiciones, que
          * todas sean dígitos y sin repetidos. Si no cumple esas condiciones, el usuario
          * deberá introducirla de nuevo hasta que lo haga correctamente.
          */
