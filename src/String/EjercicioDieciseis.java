@@ -21,11 +21,9 @@ public class EjercicioDieciseis {
          */
 
         String cadena = new String(String.valueOf(numero));
-
+       teclado.close();
         //int hexa = Integer.toHexString();
 
         //System.out.println("Resultado usando tu propio código: " + hexa);
-
-        teclado.close();
     }
 }
