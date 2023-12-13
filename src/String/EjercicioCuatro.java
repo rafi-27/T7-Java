@@ -1,6 +1,5 @@
 package String;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class EjercicioCuatro {
@@ -31,6 +30,6 @@ public class EjercicioCuatro {
 //        String second = JOptionPane.showInputDialog("Introduce tu primer apellido");
 //        String third = JOptionPane.showInputDialog("Introduce tu segundo apellido");
 //        String juntamos = first.substring(0,3)+second.substring(0,3)+third.substring(0,3);
-//        JOptionPane.showMessageDialog(null,"Tu codigo de user es:"+juntamos.toUpperCase());
-    }
+//        JOptionPane.showMessageDialog(null,"Tu codigo de user es:"+juntamos.toUpperCase());    
+}
 }

@@ -14,6 +14,6 @@ public class EjercicioCinco {
 
         System.out.println("Probamos: ");
         System.out.println(cadena.replace(" ","\n"));
-
+        teclado.close();
     }
 }

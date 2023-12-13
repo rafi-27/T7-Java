@@ -28,6 +28,6 @@ public class EjercicioCatorce {
              if (pos!=-1) cadenaSB.deleteCharAt(pos);
         } while (pos != -1);
         System.out.println(cadenaSB);
-        teclado.close();
+    teclado.close();
     }
 }
