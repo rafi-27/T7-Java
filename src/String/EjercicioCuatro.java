@@ -1,3 +1,5 @@
+package String;
+
 import javax.swing.*;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package String;
+
 public class EjercicioQuince {
     public static void main(String[] args) {
         java.util.Scanner teclado = new java.util.Scanner(System.in);
