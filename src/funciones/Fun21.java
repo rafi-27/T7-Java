@@ -16,6 +16,7 @@ public class Fun21 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce dos numeros y te digo el minimo(El mas pequeño): ");
         System.out.println(minimo(teclado.nextInt(), teclado.nextInt()));
+        teclado.close();
     }
 
 

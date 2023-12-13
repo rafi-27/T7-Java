@@ -18,5 +18,6 @@ public class Fun22 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un numero digo si es positivo o negativo o 0: ");
         System.out.println(dimeSigno(teclado.nextInt()));
+        teclado.close();
     }
 }
