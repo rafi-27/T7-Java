@@ -96,5 +96,6 @@ public class EjercicioUno {
         System.out.println(finalLetter+textoTransformado.substring(1,textoTransformado.length()-1)+firstLetter);
 
         System.out.println(ultimaPalabra+texto.substring(1,texto.length()-1)+ultimaPalabra);
+        teclado.close();
     }
 }

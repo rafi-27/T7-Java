@@ -43,6 +43,6 @@ public class EjercicioSeis {
         System.out.println("I: "+contI);
         System.out.println("O: "+contO);
         System.out.println("U: "+contU);
-
+        teclado.close();
     }
 }

@@ -20,6 +20,6 @@ public class EjercicioSiete {
         }else {
             System.out.println("No es palindroma");
         }
-    teclado.close();
+        teclado.close();
     }
 }

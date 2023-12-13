@@ -20,5 +20,6 @@ public class EjercicioTrece {
 
         System.out.println("Resultado: ");
         System.out.println(cadenaDefinitiva);
+        teclado.close();
     }
 }

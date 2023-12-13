@@ -18,7 +18,7 @@ public class EjercicioCatorce {
          * Termina mostrando la cadena.
          * El codigo lo que realiza es borrar los espacion contenidos en una cadena y deja la cadena sin espacios.
          */
-        java.util.Scanner teclado = new java.util.Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce una cadena:");
         String cadena = teclado.nextLine();
         StringBuilder cadenaSB = new StringBuilder(cadena);

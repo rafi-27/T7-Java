@@ -25,5 +25,6 @@ public class Fun25 {
 
         System.out.println("Area:");
         System.out.println(areaRectangulo(teclado.nextDouble(), teclado.nextDouble()));
+        teclado.close();
     }
 }

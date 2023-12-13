@@ -26,12 +26,6 @@ public class EjercicioDieciseis {
 
         //System.out.println("Resultado usando tu propio código: " + hexa);
 
-
-
-
-
-
-
-
+        teclado.close();
     }
 }

@@ -24,6 +24,7 @@ public class EjercicioCuatro {
 
         códigoUsuario = primeraCadena.substring(0,3)+segundaCadena.substring(0,3)+terceraCadena.substring(0,3);
         System.out.println("Tu código de usuario es: "+códigoUsuario.toUpperCase());
+        teclado.close();
 
         //Probamos mostrando una ventana emergente.
 //        String first = JOptionPane.showInputDialog("Introduce tu nombre");

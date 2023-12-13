@@ -14,5 +14,6 @@ public class Fun23 {
 
             System.out.println("Introduce las millas y te digo los kilometros que tiene: ");
             System.out.println(millas_a_kilometros(teclado.nextDouble())+" km.");
+            teclado.close();
         }
 }

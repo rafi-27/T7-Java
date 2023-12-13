@@ -35,6 +35,6 @@ public class EjercicioDiecisiete {
         System.out.println("F");
         cadena.toString();
         System.out.println(cadena);
-
+        teclado.close();
     }
 }

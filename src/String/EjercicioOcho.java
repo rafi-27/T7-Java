@@ -23,6 +23,7 @@ public class EjercicioOcho {
             }
         }
         System.out.println("El caracter "+letra+" se ha repetido "+cont+" veces.");
+        teclado.close();
 
     }
 }

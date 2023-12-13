@@ -13,5 +13,6 @@ public class EjercicioTres {
         String segundaCadena = teclado.nextLine();
 
         System.out.println(primeraCadena.equalsIgnoreCase(segundaCadena)?"Son iguales":"No son iguales");
+        teclado.close();
     }
 }

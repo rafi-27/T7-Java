@@ -22,5 +22,6 @@ public class EjercicioOnce {
 
         //Resultado final.
         System.out.println(config);
+        teclado.close();
     }
 }

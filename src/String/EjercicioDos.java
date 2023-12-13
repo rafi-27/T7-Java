@@ -19,5 +19,6 @@ public class EjercicioDos {
         resto = numer%23;
         letra = letrasDni.charAt(resto);
         System.out.println(numer+" tiene la letra "+letra);
+        teclado.close();
     }
 }

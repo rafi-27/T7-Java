@@ -21,7 +21,7 @@ public class EjercicioDieciocho {
             }
         }
         System.out.println(cadena);
-
+        teclado.close();
 
 
 

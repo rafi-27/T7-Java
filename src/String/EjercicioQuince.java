@@ -32,5 +32,6 @@ public class EjercicioQuince {
             }
 
         }while (!cadena.matches("\\d{6}"));
+        teclado.close();
     }
 }

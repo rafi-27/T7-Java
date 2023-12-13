@@ -22,5 +22,6 @@ public class Fun24 {
             System.out.println(precioConIva(teclado.nextDouble()));
             contador++;
         }
+        teclado.close();
     }
 }
