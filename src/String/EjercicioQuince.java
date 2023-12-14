@@ -28,7 +28,7 @@ public class EjercicioQuince {
             }
 
             if (!cadena.matches("\\d{6}")){
-                System.err.println("Error vueve a introducirla.");
+                System.err.println("Error vueve a introducirla superas la cantidad de digitos.");
             }
 
         }while (!cadena.matches("\\d{6}"));
