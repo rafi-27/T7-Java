@@ -23,5 +23,6 @@ public class Fun28 {
         System.out.println("Introduce una cadena y digo la cantidad de ceros que tiene: ");
 
         System.out.println(contarCeros(teclado.nextLine())+" ceros");
+    teclado.close();
     }
 }
