@@ -45,5 +45,6 @@ public class EjercicioDieciseis {
         //int hexa = Integer.toHexString();
 
         //System.out.println("Resultado usando tu propio código: " + hexa);
+        teclado.close();
     }
 }

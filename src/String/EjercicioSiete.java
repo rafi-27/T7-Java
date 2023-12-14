@@ -1,6 +1,5 @@
 package String;
 
-import java.io.CharArrayReader;
 import java.util.Scanner;
 
 public class EjercicioSiete {

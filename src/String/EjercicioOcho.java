@@ -1,13 +1,12 @@
 package String;
 
 import java.util.Scanner;
-import java.util.stream.Stream;
 
 public class EjercicioOcho {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-//Realiza un programa que solicite que se le introduzcan una cadena y un carácter y
-//nos muestre cuantas veces está contenido el carácter en la cadena.
+        //Realiza un programa que solicite que se le introduzcan una cadena y un carácter y
+        //nos muestre cuantas veces está contenido el carácter en la cadena.
 
         System.out.print("Introduce una cadena: ");
         String cadena = teclado.nextLine();
@@ -23,7 +22,7 @@ public class EjercicioOcho {
             }
         }
         System.out.println("El caracter "+letra+" se ha repetido "+cont+" veces.");
-        teclado.close();
 
+        teclado.close();
     }
 }

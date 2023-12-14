@@ -1,6 +1,5 @@
 package String;
 
-import java.util.EventListener;
 import java.util.Scanner;
 
 public class EjercicioUno {
@@ -34,7 +33,9 @@ public class EjercicioUno {
         System.out.println("h. Convertir la cadena de entrada a una variable de tipo int, suponiendo que dicha cadena es un número, esto es, contiene solo dígitos decimales (del 0 a 9)");
         String numer = teclado.nextLine();
         System.out.println(Integer.parseInt(numer));
-
+ 
+        teclado.close();
+       
         System.out.println("i. Convertir la cadena de entrada a una variable de tipo int, suponiendo que dicha\n" +
                 "cadena es un número hexadecimal, esto es, contiene solo dígitos decimales\n" +
                 "(del 0 a 9) y letras de la A a F");
@@ -87,7 +88,7 @@ public class EjercicioUno {
         System.out.println(ultima+cadena.substring(1,cadena.length()-1)+primera);
 
         String texto = "Rafik";
-        char primeraPalabra = texto.charAt(0);
+        //char primeraPalabra = texto.charAt(0);
         char ultimaPalabra = texto.charAt(texto.length()-1);
         String textoTransformado = String.valueOf(primeraCadena);
         char firstLetter = textoTransformado.charAt(0);
@@ -96,6 +97,7 @@ public class EjercicioUno {
         System.out.println(finalLetter+textoTransformado.substring(1,textoTransformado.length()-1)+firstLetter);
 
         System.out.println(ultimaPalabra+texto.substring(1,texto.length()-1)+ultimaPalabra);
+        
         teclado.close();
     }
 }
