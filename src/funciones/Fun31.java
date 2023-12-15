@@ -19,7 +19,7 @@ public static int diasDeMes(int año, int mes){
     }
 
     if (mes == 2) {
-        if (año % 4 == 0 && año % 100 != 0 && año % 400 == 0) {
+        if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0) {
             return cantidadDiasMeses = 28;
         }else{
             return cantidadDiasMeses = 29;
@@ -31,54 +31,38 @@ public static int diasDeMes(int año, int mes){
 
 public static int calcularDiasMes(int año, int mes){
     Scanner teclado = new Scanner(System.in);
-    int cantidadDiasMeses;
+    int cantidadDiasMeses=0;
     int sumaDias=0;
 
     if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) {
         cantidadDiasMeses = 31;
     }else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
         cantidadDiasMeses = 30;
-    }
-
-    if (mes == 2) {
-        if (año % 4 == 0 && año % 100 != 0 && año % 400 == 0) {
+    }else if (mes == 2) {
+        if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0) {
             cantidadDiasMeses = 28;
         }else{
             cantidadDiasMeses = 29;
         }
     }
+
+    sumaDias = cantidadDiasMeses;
    
-    for (int i = 0; i <= mes; i++) {
-        sumaDias+=i;
+    for (int i = 1; i < mes; i++) {
+        sumaDias+=diasDeMes(año, i);
     }
 
     return sumaDias;
 
-
 }
-
-
-
-
-
-
 
 public static void main(String[] args) {
-    System.out.println(calcularDiasMes(2023, 9));
+    Scanner teclado = new Scanner(System.in);
+    System.out.println("Probamos: ");
+    System.out.println("Introduce primero el año luego el mes:");
+    System.out.println(calcularDiasMes(teclado.nextInt(), teclado.nextInt()));
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

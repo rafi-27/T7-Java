@@ -12,7 +12,7 @@ public class Fun26 {
 
     public static int suma1an(int n){
         int num=0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n+1; i++) {
             num += i;
         }
         return num;
