@@ -29,30 +29,18 @@ public static int diasDeMes(int año, int mes){
     return cantidadDiasMeses;  
 }
 
-public static int calcularDiasMes(int año, int mes){
+public static int calcularDiasMes(int año, int mes, int diaExacto){
     Scanner teclado = new Scanner(System.in);
     int cantidadDiasMeses=0;
     int sumaDias=0;
 
-    if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) {
-        cantidadDiasMeses = 31;
-    }else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
-        cantidadDiasMeses = 30;
-    }else if (mes == 2) {
-        if ((año % 4 == 0 && año % 100 != 0) || año % 400 == 0) {
-            cantidadDiasMeses = 28;
-        }else{
-            cantidadDiasMeses = 29;
-        }
-    }
+    //sumaDias = cantidadDiasMeses;
 
-    sumaDias = cantidadDiasMeses;
-   
-    for (int i = 1; i < mes; i++) {
+    for (int i = 1; i <= mes; i++) {
         sumaDias+=diasDeMes(año, i);
     }
-
-    return sumaDias;
+    int resta = diasDeMes(año, mes) - diaExacto;
+    return sumaDias-resta;
 
 }
 
@@ -60,7 +48,7 @@ public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
     System.out.println("Probamos: ");
     System.out.println("Introduce primero el año luego el mes:");
-    System.out.println(calcularDiasMes(teclado.nextInt(), teclado.nextInt()));
+    System.out.println(calcularDiasMes(teclado.nextInt(), teclado.nextInt(), teclado.nextInt()));
     
 }
 

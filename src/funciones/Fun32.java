@@ -11,9 +11,12 @@ public class Fun32 {
      * puedas reutilizar en otros programas.
      */
 
-    public static void calcularFactorial(int numero) {
+    public static void calcularFactorial() {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Introduce un numero: ");
+        int numero = teclado.nextInt();
         do {
-            if (numero < 1 && numero > 20) {
+            if (numero < 1 || numero >= 20) {
                 break;
             }else{
                 System.out.println("La factorial del numero: "+numero);
@@ -25,13 +28,12 @@ public class Fun32 {
                 System.out.println(factorial);
                 break;
             }
-        } while (numero > 1 && numero < 20);
+        } while (numero > 1 || numero < 20);
     }
 
     public static void main(String[] args) {
-        System.out.println("Inserta un numero: ");
-        Scanner teclado = new Scanner(System.in);
-        calcularFactorial(teclado.nextInt());
+        System.out.println("Probamos el menu: ");
+        calcularFactorial();
 
     }
 
