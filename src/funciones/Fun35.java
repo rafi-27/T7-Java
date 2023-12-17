@@ -28,11 +28,29 @@ public class Fun35 {
         return cont-contCaract;
     }
 
+    public static String digitoN(String numero, int posicion){
+        if (numero.length() < posicion){
+            return "-1";
+        }else {
+            return String.valueOf(numero.charAt(posicion));
+        }
+    }
+
+    public static int posicionDigito(String numero, String posicion){
+        if (!numero.contains(posicion)){
+            return -1;
+        }else {
+            return numero.indexOf(String.valueOf(posicion))+1;
+        }
+    }
+
 
     public static void main(String[] args) {
-        //System.out.println(masPrimo(12421));
-        //System.out.println(digitos(123456));
+        System.out.println(masPrimo(12421));
+        System.out.println(digitos(123456));
         System.out.println(digitos(1234.5678));
+        System.out.println(digitoN("123456789",5));
+        System.out.println(posicionDigito("123456789","8"));
 
 
 
