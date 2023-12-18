@@ -31,7 +31,7 @@ public class Fun38 {
         String caracteresEspeciales = "!#$%&'()*+,-./:;<=>?@_`}~";
         //String caracteresEspeciales = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 
-        if (longiContra < 5){
+        if (longiContra < 4){
             longiContra = 8;
             nivelSeguridad=2;
             System.out.println("Longitud insuficiente se te asignara una longitud de 8 y nivel 2.");
