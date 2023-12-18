@@ -3,14 +3,11 @@ package funciones;
 public class Fun35 {
 
     public static int masPrimo(int num){
-        int primo=0;
-        for (int i = num+1; i < 9999999; i++) {
+        for (int i = num+1; ; i++) {
             if (Fun33.cantidadDivisores(i) == 2){
-                primo = i;
-                break;
+                return i;
             }
         }
-        return primo;
     }
 
     public static int digitos(double digit){

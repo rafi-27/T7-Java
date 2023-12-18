@@ -70,6 +70,7 @@ public class Fun30{
         Scanner teclado = new Scanner(System.in);
         System.out.println("Probamos nuestro menu: ");
         calcularArea();
+        teclado.close();
     }
 
 

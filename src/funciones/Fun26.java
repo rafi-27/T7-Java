@@ -28,11 +28,16 @@ public class Fun26 {
 
     public static double intermedio1an(int n){
         int num=0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             num+=i;
         }
         return num/n;
     }
+
+    public static double inter(int n){
+        return (1+n)/2;
+    }
+
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Sumatorio: ");
@@ -43,5 +48,8 @@ public class Fun26 {
 
         System.out.println("Promedio: ");
         System.out.println(intermedio1an(teclado.nextInt()));
+
+        System.out.println("Intermedio:");
+        System.out.println(inter(teclado.nextInt()));
     }
 }

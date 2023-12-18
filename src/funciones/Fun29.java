@@ -22,5 +22,6 @@ public class Fun29{
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce dos numeros y te printeo un numero aleatorio que este comprendido entre ambos.");
         System.out.println(aleatorio(teclado.nextInt(), teclado.nextInt()));
+        teclado.close();
     }
 }
