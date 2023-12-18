@@ -1,6 +1,5 @@
 package funciones;
 public class Fun34 {
-
     public static int contadorPrimos(){
         int sumaPrimos=0;
         for (int i = 0; i < 1000; i++) {
