@@ -20,5 +20,6 @@ public class RemoverCadena {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println(removerCadena(teclado.nextLine()));
+        teclado.close();
     }
 }
