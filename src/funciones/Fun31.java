@@ -10,7 +10,7 @@ public class Fun31 {
 
 //Para saber los dias que tiene el mes
 public static int diasDeMes(int año, int mes){
-    int cantidadDiasMeses=0;
+    int cantidadDiasMeses;
 
     if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) {
         return cantidadDiasMeses = 31;

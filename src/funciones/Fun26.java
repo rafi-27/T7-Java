@@ -51,5 +51,6 @@ public class Fun26 {
 
         System.out.println("Intermedio:");
         System.out.println(inter(teclado.nextInt()));
+        teclado.close();
     }
 }

@@ -32,6 +32,7 @@ public class Fun32 {
                 System.out.println(factorial);
             }
         }
+        teclado.close();
     }
 
     public static void main(String[] args) {

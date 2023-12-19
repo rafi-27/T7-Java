@@ -103,6 +103,7 @@ public class Fun38 {
                 } while (!contrasenia.matches(".*[a-z]+.*[A-Z]+.*[0-9]+.*[!#$%&'()*+,-./:;<=>?@_`}~]+.*"));
                 break;
         }
+        teclado.close();
     }
 
     public static void main(String[] args) {

@@ -20,5 +20,6 @@ public class Fun33 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un numero y te digo la cantidad de divisores que tiene: ");
         System.out.println(cantidadDivisores(teclado.nextInt()));
+        teclado.close();
     }
 }
