@@ -13,7 +13,7 @@ public class EjercicioUno {
         System.out.println(primeraCadena.toLowerCase());
 
         System.out.println("b. Decir si en la cadena aparece el carácter ‘x’.");
-        System.out.println(primeraCadena.indexOf("x") !=1 ?"Hay x en el texto":"No hay x en el texto");
+        System.out.println(primeraCadena.indexOf("x") !=-1 ?"Hay x en el texto":"No hay x en el texto");
 
         System.out.println("c. Decir si la cadena tiene más de 10 posiciones");
         System.out.println(primeraCadena.length()>10?"Hay mas de 10 posiciones":"No hay mas de 10 posiciones");
